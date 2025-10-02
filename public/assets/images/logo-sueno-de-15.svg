@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f6e27a" />
+      <stop offset="50%" stop-color="#d4a938" />
+      <stop offset="100%" stop-color="#fce3a5" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="#ffffff" rx="20" ry="20" />
+  <g font-family="'Lobster Two', 'Brush Script MT', cursive" fill="url(#gold)">
+    <text x="50%" y="60%" font-size="96" text-anchor="middle">Sueño de 15</text>
+  </g>
+  <g fill="url(#gold)">
+    <polygon points="300,40 310,70 340,70 315,88 325,120 300,100 275,120 285,88 260,70 290,70" />
+  </g>
+</svg>
