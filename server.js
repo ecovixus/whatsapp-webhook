@@ -1,10 +1,17 @@
 import express from "express";
 import fetch from "node-fetch";
-import dotenv from "dotenv";
 
-dotenv.config();
+try {
+  const dotenv = await import("dotenv");
+  dotenv.config();
+} catch (error) {
+  if (error?.code !== "ERR_MODULE_NOT_FOUND") {
+    console.error("Error al cargar dotenv:", error);
+  }
+}
 const app = express();
 app.use(express.json());
+app.use(express.static("public"));
 
 // Verificación webhook
 app.get("/webhook", (req, res) => {

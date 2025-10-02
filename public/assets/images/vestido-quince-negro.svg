@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1b24" />
+      <stop offset="100%" stop-color="#4a3a33" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)" />
+  <text x="50%" y="45%" text-anchor="middle" font-family="'Playfair Display', serif" font-size="120" fill="#f3d08c" opacity="0.95">
+    Noches de Ensueño
+  </text>
+  <text x="50%" y="57%" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="56" fill="#f5e2b3" opacity="0.8">
+    Tul negro bordado dorado
+  </text>
+  <text x="50%" y="70%" text-anchor="middle" font-family="'Montserrat', sans-serif" font-size="44" fill="#f5e2b3" opacity="0.6">
+    Reemplaza por la fotografía real
+  </text>
+</svg>
